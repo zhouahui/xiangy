@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,div,ul,li,img,h1,h2,h3,h4,h5,h6,a,footer,header,nav{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	border:none;
+}
+ul,li{list-style:none;}
+a{ text-decoration:none;}
+body{
+	background:url(../images/bj.jpg) ;}
+	
+.contain{ background:url(../images/mainbj.jpg) repeat;}
+
+footer{ background:url(../images/bj.jpg);height:80px; clear:both;width:100%; }

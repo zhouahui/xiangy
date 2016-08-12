@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{min-width:320px;}
+header img{margin:0 20%;}
+nav{width:100%;min-width:320px;}
+nav ul li{float:left; line-height:34px; width:25%; text-align:center;}
+.contain{ display:inline-block;}
+.contain figure{min-width:320px; }
+.contain figure li{width:43%;margin:0 1%; }
+.contain figure ul{padding-left:7%; box-sizing:border-box;}
+.contain figure li.hidden_ipad,.contain figure li.hidden_phone{display:none;}
+.contain figure img.jt_l,.contain figure img.jt{top:20px; width:8%;}
+
+
+
+.main article{width:96%; margin-left:2%;display:inline-block;clear:both;min-width:300px; border-bottom:1px #c69687 dashed;  border-top:1px #c69687 dashed; padding-bottom:10px}
+.main  article img{width:100%;clear:both; box-sizing:border-box;}
+.main article p{width:100%; padding:3%;box-sizing:border-box;}
+
+
+.main aside{width:96%; margin-left:2%; padding-bottom:2%; border-bottom:1px #c69687 dashed; }
+.main aside img{width:45%;}
+.main aside p {width:50%; margin:0}
+.main aside ul{float:left; width:100%;}
+.main aside ul li{line-height:24px;}
+
+.main .contact{width:100%; background:none; min-width:300px}
+.main .contact ul{margin-top:10px; margin-left:30px;}
+
+footer p{width:80%;}
+
+
